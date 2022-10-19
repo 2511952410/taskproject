@@ -1,0 +1,19 @@
+087960
+33
+//    @PostMapping("/fileUpload")
+//    @ResponseBody
+//    public Result fileUpload(MultipartFile file, HttpServletRequest request) throws IOException {
+//        if (!file.isEmpty()) {
+//            File dir = new File(request.getServletContext().getRealPath("/"), "img");
+//           if (!dir.exists()){
+//               dir.mkdirs();
+//           }
+//            byte[] object=file.getBytes();
+//            File f=new File(dir,file.getOriginalFilename());
+//            IOUtils.write(object,new FileOutputStream(f));
+//            return new Result(200,"OK",f.getAbsolutePath());
+//        }else {
+//            return  new Result(400,"请选择上传的文件",null);
+//        }
+//
+//    }
